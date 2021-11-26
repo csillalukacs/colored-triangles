@@ -29,5 +29,6 @@ body{
     height: 20px;
     margin-top: -1px;
     margin-left: -1px;
-
+    text-align: center;
+    font-family: Helvetica, sans-serif;
 }
