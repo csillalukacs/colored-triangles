@@ -1,4 +1,4 @@
-const COLORS = ["red", "limegreen", "blue"]
+const COLORS = ["rgb(214, 0, 255)", "rgb(0, 255, 159)", "rgb(0, 184, 255)"]
 let cells = []
 let size = 10;
 
