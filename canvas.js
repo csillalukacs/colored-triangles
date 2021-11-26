@@ -18,7 +18,7 @@ function drawGrid(n) {
             cell.dataset.col = j.toString();
             cell.addEventListener('contextmenu', (e)=> {
                 e.preventDefault();
-                cell.innerHTML = "x";
+                cell.innerHTML = cell.innerHTML === "x" ? "" : "x" ;
             })
             row.appendChild(cell)
             tmp.push(cell)
@@ -88,10 +88,7 @@ function getRandomColor() {
 }
 
 function init() {
-    drawGrid(size);
-    setFirstRowColors();
-    addEventListeners();
-    colorGrid();
+    newGrid();
     const resetButton = document.getElementById("resetButton");
     resetButton.addEventListener('click', newGrid);
 }
