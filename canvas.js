@@ -47,7 +47,6 @@ function rotateColor(cell) {
 }
 
 function addEventListeners() {
-    console.log(cells)
     for (const cell of cells[0]) {
         cell.addEventListener('click', () => {
             rotateColor(cell);
