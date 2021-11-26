@@ -1,6 +1,6 @@
 const COLORS = ["red", "limegreen", "blue"]
 let cells = []
-size = 10;
+let size = 10;
 
 function drawGrid(n) {
     const canvas = document.getElementById("canvas");
@@ -47,6 +47,7 @@ function rotateColor(cell) {
 }
 
 function addEventListeners() {
+    console.log(cells)
     for (const cell of cells[0]) {
         cell.addEventListener('click', () => {
             rotateColor(cell);
@@ -95,7 +96,8 @@ function init() {
     resetButton.addEventListener('click', newGrid);
 }
 
-function newGrid(size) {
+function newGrid() {
+    size = document.getElementById("gridSize").value;
     drawGrid(size);
     setFirstRowColors();
     addEventListeners();
