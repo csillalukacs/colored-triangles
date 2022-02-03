@@ -1,21 +1,24 @@
 body{
-    position:relative;
+    background-color: lightgray;
 }
 
-#resetButton{
-    margin:auto;
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main>*{
+    margin:10px;
+}
+
+#gridSize{
+    width: 4rem;
 }
 
 #canvas{
-    margin:0;
     display:flex;
     flex-direction: column;
-    top:50%;
-    left:50%;
-    max-width: fit-content;
-    position:absolute;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
 }
 
 .row{
@@ -24,7 +27,7 @@ body{
 
 .cell{
     display:inline-block;
-    border: 1px solid black;
+    border: 1px solid rgb(60,60,60);
     width: 20px;
     height: 20px;
     margin-top: -1px;
@@ -32,3 +35,4 @@ body{
     text-align: center;
     font-family: Helvetica, sans-serif;
 }
+
