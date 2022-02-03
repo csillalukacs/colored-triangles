@@ -10,4 +10,3 @@ Simple visualization for [this](https://www.codewars.com/kata/5a331ea7ee1aae8f24
 
 ![image](https://user-images.githubusercontent.com/52175603/152424668-b6bf0f68-04c4-4a59-a69a-4ae1bd7eb372.png)
 ![image](https://user-images.githubusercontent.com/52175603/152424828-3c2a0f1c-630e-4d1f-b0a2-75d9007d96c4.png)
-![152424828-3c2a0f1c-630e-4d1f-b0a2-75d9007d96c4](https://user-images.githubusercontent.com/52175603/152424920-13e136bc-7b59-4f6b-b614-16068399a8d7.png)
