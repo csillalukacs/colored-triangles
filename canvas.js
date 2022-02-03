@@ -70,14 +70,14 @@ function colorGrid() {
     }
 }
 
-function getCellColor(color1, color2) {
-    if (color1 === color2) {
-        return color1
-    } else if (color1 !== COLORS[0] && color2 !== COLORS[0]) {
+function getCellColor(colorAbove, colorRight) {
+    if (colorAbove === colorRight) {
+        return colorAbove
+    } else if (colorAbove !== COLORS[0] && colorRight !== COLORS[0]) {
         return COLORS[0]
-    } else if (color1 !== COLORS[1] && color2 !== COLORS[1]) {
+    } else if (colorAbove !== COLORS[1] && colorRight !== COLORS[1]) {
         return COLORS[1]
-    } else if (color1 !== COLORS[2] && color2 !== COLORS[2]) {
+    } else if (colorAbove !== COLORS[2] && colorRight !== COLORS[2]) {
         return COLORS[2]
     }
 }
